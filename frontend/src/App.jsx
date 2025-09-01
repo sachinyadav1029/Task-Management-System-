@@ -1,8 +1,11 @@
 import React from 'react'
+import Dashboard from './Pages/Dashboard'
 
 function App() {
   return (
-    <div className='text-red-500'>Example</div>
+    <>
+      <Dashboard />
+    </>
   )
 }
 
